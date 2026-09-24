@@ -28,6 +28,8 @@
         <button type="submit" name="action" value="create">Создать</button>
     </form>
 
+    <div class="general-error">${generalError}</div>
+
     <ul class="todo-list">
         <c:forEach var="item" items="${todoItems}">
             <li>
